@@ -1,1 +1,5 @@
-
+---
+- hosts: test2
+  become: yes
+  roles:
+   - {role: /home/vagrant/.jenkins/workspace/test_jenkins/nginx}
