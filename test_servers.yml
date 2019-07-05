@@ -1,5 +1,4 @@
 ---
 hosts: test2
-  become: yes
   roles:
    - nginx
