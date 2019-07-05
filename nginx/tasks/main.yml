@@ -2,7 +2,7 @@
 # tasks file for nginx
 - name: create docker nginx
   docker_container:
-    name: mynginx1
+    name: mynginx9
     image: nginx
     volumes:
       - /home/vagrant/dnginx
