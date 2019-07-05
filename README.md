@@ -5,6 +5,16 @@
 
 Step -1
  - open jenkins
- - create new pipline
- -
 
+Step-2
+ - create new pipline
+ - in general -> select "GitHub project" -> set pojecturl "https://github.com/nileshchudasama/tempo.git"
+ - in Pipeline -> select definition "pipeline script from SCM" -> choose SCM "Git"  
+               -> give Repository URL "https://github.com/nileshchudasama/tempo.git"
+               -> select script path "Jenkinsfile"
+ - apply and save
+ 
+ Step-3
+ now build job
+ 
+ 
