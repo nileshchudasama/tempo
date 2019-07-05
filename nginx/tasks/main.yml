@@ -4,5 +4,7 @@
   docker_container:
     name: mynginx1
     image: nginx
+    volumes:
+      - /home/vagrant/dnginx
     ports:
       - "8080:80"
