@@ -5,6 +5,6 @@
     name: mynginx9
     image: nginx
     volumes:
-      - /home/vagrant/dnginx
+      - /home/vagrant/dnginx:/usr/share/nginx/html:ro
     ports:
       - "8080:80"
