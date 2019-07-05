@@ -1,10 +1,4 @@
 ---
 # tasks file for nginx
 - name: create docker nginx
-  docker_container:
-    name: mynginx9
-    image: nginx
-    volumes:
-      - /home/vagrant/dnginx:/usr/share/nginx/html:ro
-    ports:
-      - "8080:80"
+  command: docker run --name mynginx1 -v /home/vagrant/dnginx:/usr/share/nginx/html:ro -d nginx
